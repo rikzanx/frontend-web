@@ -1,0 +1,293 @@
+html,body{
+    padding: 0 !important;
+    margin: 0 !important;
+    height: 100%;
+    font-family: 'Noto Serif', serif !important;
+font-family: 'Noto Sans', sans-serif !important;
+}
+.container{
+    margin: 0 !important;
+    padding: 0 !important;
+    display: flex;
+    flex-direction: row;
+    min-height: 100%;
+    min-width: 100%;
+}
+.left{
+    display: flex;
+    background-image: url('../img/login-register/background.png');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 50%;
+}
+.content{
+    align-self: flex-end;
+    margin-bottom: 10%;
+    width: 100%;
+    bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sub-head{
+    text-align: center;
+    width: 100%;
+    font: SemiBold 14px/19px Noto Sans;
+    letter-spacing: 0;
+    color: #000000;
+    opacity: 1;
+}
+.bottom{
+    display: flex;
+}
+.appstore{
+    z-index: 1;
+    display: block;
+    margin-left: 10px;
+    /* position: absolute; */
+    width: 135px;
+    height: 38px;
+    /* top: 694px;
+    left: 188px; */
+    opacity: 1;
+    background-image: url('../img/login-register/Mask_Group_25_@1x.png');
+    background-size: contain;
+    background-repeat: no-repeat; 
+}
+.playstore{
+    z-index: 1;
+    display: block;
+    /* position: absolute; */
+    width: 135px;
+    height: 38px;
+    /* top: 694px;
+    left: 323px; */
+    opacity: 1;
+    background-image: url('../img/login-register/Mask_Group_24_@1x.png');
+    background-size: contain;
+    background-repeat: no-repeat; 
+}
+.right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+}
+.form-container{
+    display: flex;
+    flex-direction: column;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 10px 20px #00000029;
+    border: 0.20000000298023224px solid #979797;
+    border-radius: 10px 10px 28px 10px;
+    width: 350px;
+}
+.input-div{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 20px 10px 20px;
+}
+.input-div input{
+    height: 25px;
+    border: none;
+    border-bottom: 1.2px solid #1B75BC;
+    outline: none;
+    width: 100%;
+}
+.input-div input:focus{
+    border-bottom: 2px solid #1B75BC;
+}
+.label{
+    font-weight: bold;
+}
+.login-heading{
+    width: 100%;
+    text-align: center;
+}
+.login-bottom{
+    display: flex;
+}
+.hint{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hint a{
+    color: #1991EB;
+    text-decoration: none;
+}
+.btn-submit{
+    width: 50%;
+    border: none;
+    padding: 15px 0px 15px 0px;
+    align-self: flex-end;
+    background: transparent linear-gradient(180deg, #1B75BC 0%, #1B75BCBD 100%) 0% 0% no-repeat padding-box;
+    border-radius: 20px 0px 20px 20px;
+    opacity: 1;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+}
+.btn-submit:hover{
+    cursor: pointer;
+    transition: 0.1s;
+    background: transparent linear-gradient(90deg, #1B75BC 0%, #1B75BCBD 100%) 0% 0% no-repeat padding-box;
+}
+.btn-submit:focus{
+    outline: none;
+}
+.show{
+    display: flex;
+}
+.eye{
+    cursor: pointer;
+}
+.eye:hover{
+    color: #979797;
+}
+.mobile-icon{
+    display: none;
+}
+
+@media only screen and (max-width:760px){
+    .left{
+        background-image: url('../img/login-register/background-mobile.png');
+    }
+    .login-heading{
+        opacity: 0;
+        
+    }
+    .container{
+        display: flex;
+    }
+    .left{
+        width: 100%;
+        background-size: 100% 100%;
+    }
+    .right{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        position: absolute;
+        top: 250px;
+        width: 100%;
+        
+    }
+    .content{
+        padding-top: 110%;
+        align-self:flex-start;  
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .mobile-icon{
+        top: 20%;
+        left: 30%;
+        width: 30%;
+        display: block;
+        position: absolute;
+        z-index: 99;
+    }
+}
+@media only screen and (max-width:760px) and (min-width:670px){
+    .mobile-icon{
+        top: 20%;
+        left: 40%;
+        width: 20%;
+        display: block;
+        position: absolute;
+        z-index: 99;
+    }
+    .form-container{
+        width: 400px;
+    }
+    .content{
+        padding-top: 110%;
+    }
+}
+@media only screen and (max-width:670px) and (min-width:600px) {
+    .mobile-icon{
+        top: 25%;
+        left: 40%;
+        width: 20%;
+        display: block;
+        position: absolute;
+        z-index: 99;
+    }
+    .form-container{
+        width: 400px;
+    }
+    .content{
+        padding-top: 120%;
+    }
+}
+@media only screen and (max-width:670px) and (min-width:600px) {
+    .mobile-icon{
+        top: 25%;
+        left: 40%;
+        width: 20%;
+        display: block;
+        position: absolute;
+        z-index: 99;
+    }
+    .content{
+        padding-top: 120%;
+    }
+}
+@media only screen and (max-width:600px) and (min-width:550px)  {
+    .mobile-icon{
+        top: 25%;
+        left: 40%;
+        width: 20%;
+        display: block;
+        position: absolute;
+        z-index: 99;
+    }
+    .content{
+        padding-top: 130%;
+    }
+}
+@media only screen and (max-width:550px) and (min-width:515px)  {
+    .mobile-icon{
+        top: 25%;
+        left: 40%;
+        width: 20%;
+        display: block;
+        position: absolute;
+        z-index: 99;
+    }
+    .content{
+        margin-top: 150px;
+    }
+}
+@media only screen and  (max-width:515px) and (min-width:477px) {
+    .content{
+        margin-top: 190px;
+    }
+}
+@media only screen and  (max-width:477px) and (min-width:360px) {
+    .content{
+        margin-top: 300px;
+    }
+}
+@media only screen and  (max-width:360px) {
+    .mobile-icon{
+        top: 30%;
+        left: 35%;
+        width: 30%;
+        display: block;
+        position: absolute;
+        z-index: 99;
+    }
+    .content{
+        margin-top: 350px;
+    }
+    .form-container{
+        width: 280px;
+    }
+}

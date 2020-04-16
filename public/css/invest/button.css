@@ -1,0 +1,169 @@
+.btn {
+    font-size: 14px;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+}
+.btn:focus,
+.btn:active:focus {
+    outline: thin dotted;
+    outline: 5px auto -webkit-focus-ring-color;
+    outline-offset: -2px;
+}
+.btn:hover,
+.btn:focus {
+    color: #333;
+    text-decoration: none;
+}
+.btn:active {
+    background-image: none;
+    outline: 0;
+    -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);
+    box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);
+}
+
+.btn-large {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 18px
+}
+
+/* default
+---------------------------- */
+.btn-default {
+    color: #333;
+    background-color: #fff;
+    border-color: #ccc;
+}
+.btn-default:focus {
+    color: #333;
+    background-color: #e6e6e6;
+    border-color: #8c8c8c;
+}
+.btn-default:hover {
+    color: #333;
+    background-color: #e6e6e6;
+    border-color: #adadad;
+}
+.btn-default:active {
+    color: #333;
+    background-color: #e6e6e6;
+    border-color: #adadad;
+}
+.btn-grey {
+	background: #F0F0F0;
+	color: #000;
+}
+
+.btn-invest {
+    background-color: #1B9B8B;
+    border-color: #1B9B8B;
+    height: 30px;
+    width: 100px;
+    line-height: 30px;
+    padding-top: 0;
+    color: #FFF;
+}
+
+.btn-banner {
+    color: #fff;
+    background-color: #E39739;
+    border-radius: 25px;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 5px 45px;
+    margin-top: 15px;
+}
+
+.btn-poster {
+    color: #E39739;
+    background-color: #fff;
+    border-color: #E39739;
+    border-radius: 25px;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 13px 45px;
+    margin-top: 36px;
+}
+
+.btn-download {
+    color: #000;
+    background-color: #fff;
+    border: 1px solid #707070;
+    border-radius: 55px;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 22px 70px;
+    margin-top: 46px;
+}
+
+
+#bannerContent .btn-banner, #investasi .btn-banner {
+    color: #fff;
+    background-color: #E39739;
+    border-radius: 25px;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 13px 45px;
+    margin-top: 36px;
+}
+
+@media (max-width: 992px){
+    #bannerContent .btn-banner {
+        font-size: 16px;
+        border-radius: 5px;
+        padding: 11px 16px;
+        margin-top: 12px;
+    }
+
+    .btn-download {
+        border: 1px solid #707070;
+        border-radius: 11px;
+        font-size: 11px;
+        padding: 7px 20px;
+        margin-top: 25px;
+    }
+}
+
+@media (max-width: 768px){
+    #bannerContent .btn-banner, #investasi .btn-banner {
+        font-size: 12px;
+        border-radius: 5px;
+        padding: 11px 16px;
+        margin-top: 12px;
+    }
+    .btn-poster {
+        font-size: 12px;
+        border-radius: 5px;
+        padding: 11px 16px;
+        margin-top: 12px;
+    }
+}
+
+@media (max-width: 576px){
+    #bannerContent .btn-banner, #investasi .btn-banner {
+        font-size: 10px;
+        border-radius: 5px;
+        padding: 11px 16px;
+        margin-top: 12px;
+    }
+    .btn-poster {
+        font-size: 10px;
+        border-radius: 5px;
+        padding: 11px 16px;
+        margin-top: 12px;
+    }
+}

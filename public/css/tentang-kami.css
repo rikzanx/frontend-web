@@ -1,0 +1,220 @@
+/* ALL */
+.displayPhone { display: none; }
+.contentContainer, .contentContainerLast { padding: 0 150px; }
+#banner { height: 853px; z-index: 98; }
+#bannerContent { background-color: #DB8415; height: 770px; position: absolute; z-index: 98; }
+#bannerContent div:first-child { top: 50%; left: -400px; }
+#bannerContent img { height: 770px; }
+.content { padding-top: 160px; }
+.contentContainerLast { margin-bottom: 200px; }
+.content .row div { margin-top: 40px; }
+#ternaknesiaHadir { background: #F0F0F0 0% 0% no-repeat padding-box; border-radius: 30px; }
+#quotesSymbol { width: 80px; left: 50px; top: -30px; }
+#ternaknesiaHadirText div:first-child { margin-left: 140px; }
+#ternaknesiaHadirText div:last-child { padding-right: 30px; margin-left: 57px; }
+#ternaknesiaHadirGambar img { margin-top: -40px; }
+.mariBerkontribusi { width: 90px; height: 90px; }
+#semangatKami { height: 1543px; }
+#firstDivSmgtKami { height: 1543px; width: 1451px; right: 0; left: 0; margin: -60px auto 0 auto; overflow: hidden; }
+#firstDivSmgtKami img { width: 120%; max-width: 120%; margin-left: -15%; }
+#semangatKamiDiv { padding-top: 80px; height: 900px; max-height: 900px; }
+.semangatKamiContent { background: #FFFFFF 0% 0% no-repeat padding-box; box-shadow: 0px 3px 6px #00000029; border-radius: 30px; width: 524px; }
+.besideSemangatUp { margin: 70px 25px 0 5px !important; height: 100%; }
+#webCarousel { width: 1470px; margin-top: -70px; margin-right: -53px; }
+#bckgCarousel { overflow: hidden; }
+#contentCarousel { height: 315px; width: 575px; left: 52%; top: 25%; }
+.carousel-inner { top: 65px; width: 60%; }
+.carousel-control-next, .carousel-control-prev { top: -20%; }
+.carousel-control-next-icon, .carousel-control-prev-icon {  width: 75px; height: 75px; }
+.carousel-indicators { bottom: 35%; }
+.carousel-indicators li { border-radius: 100%; width: 7px; height: 7px; }
+#jejakKami { border: 1.5px solid #D1D0CD; border-radius: 30px; }
+#jejakKami .row div { margin-top: 100px; }
+#jejakKami .row div:last-child { margin-bottom: 100px; }
+#jejakKami img { width: 30px; }
+#endContent { background-color: #DB8415; height: 900px; }
+#endContent .container { padding: 50px 25px; }
+#downloadAplikasiButtonFont { border-radius: 55px; width: 230px; }
+#endContent .container .row div:first-child { margin: 0 0 0 60px; }
+#endContent .container .row div:last-child { margin: -35px 0px 0 -60px; }
+#endContentHp img { top: 125px; }
+@media (max-width: 992px) {
+    #ternaknesiaHadirPhone { height: 303px; width: 400px; max-width: 100%; overflow: hidden; }
+    #backgroundTernaknesiaHadirRight { width: 49%; background-color: #F0F0F0; border-radius: 5px; right: 0; }
+    #contentSubTitleMariBerkontribusi { width: 100% !important; }
+    #smgtKamiPhoneFirst { z-index: -1; height: 484px; }
+    #smgtKamiRsponsive { margin-top: 45px; }
+    #semangatKami { height: 310px; }
+    #semangatKamiDiv { padding-top: 0; height: 215px; max-height: 250px; margin-left: 100px; overflow-x: scroll; -ms-overflow-style: none; }
+    #semangatKamiDiv::-webkit-scrollbar {  }
+    #semangatKamiDiv::-webkit-scrollbar-track { -webkit-box-shadow: inset 0 0 0 transparent; border-radius: 10px; }
+    #semangatKamiDiv::-webkit-scrollbar-thumb { border-radius: 10px; -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); }
+    #semangatKamiDiv div:first-child.position-relative { display: flex; width: 1435px; cursor: default; }
+    .semangatKamiContent { height: 145px; margin: 25px 5px !important; width: 276px; cursor: pointer; }
+    .semangatKamiContent:hover { background-color: rgba(0,0,0,0.1); box-shadow: 0px 0px 6px white; }
+    .semangatKamiContent label { cursor: pointer; }
+    #bckgCarousel { padding: 0 35px; }
+    #bersamaAndaCarousel { top: 15px; left: 0; right: 0; }
+    .carousel-indicators { bottom: 0; }
+    #phoneCarousel { width: 368px; }
+    #phoneCarouselLogo { width: 25vh; padding-top: 12vh; }
+    #endContent .container .row div:first-child { margin-bottom: -80px; }
+    #endContent .container .row div:last-child { margin: 0; }
+    #endContent img { top: 65px; }
+    #footer #ftSec5 { margin-top: 46px; text-align: center; }
+}
+
+
+
+/* ALL */
+.kedaulatan_pangan { border-radius: 20px; }
+
+/* Font */
+.tentangKamiFont { font-size: 37px; }
+.titleSection, .bersamaAndaAstraFont { font-size: 32px; }
+.kedaulatanPanganFontFirst, #downloadAplikasiFont { font-size: 24px; }
+.kedaulatanPanganFont { font-size: 14px; line-height: 2; }
+.ternaknesiaHadirFontFirst { font-size: 20px; }
+.ternaknesiaHadirFontSecond { font-size: 14px; }
+#mariBerkontribusiFont, #downloadAplikasiButtonFont { font-size: 16px; }
+.mariBerkontribusiFontIcon, .bersamaAndaAstraDetailFont, .jejakKamiContentFont { font-size: 18px; }
+#semangatKamiFont { font-size: 22px; width: 760px; margin: auto; }
+#semangatKamiPaculFont { color: #DB8415; font-size: 28px; }
+.semangatKamiPaculDivFont { font-size: 97px; }
+.semangatKamiPaculDivFont2 { font-size: 30px; }
+.semangatKamiPaculDivFont3 { font-size: 12px; }
+.jejakKamiTitleFont { font-size: 25px; }
+#downloadAplikasiFont { line-height: 2; }
+
+/* Line Title */
+.lineTitle { width: 291px; height: 22px; }
+
+/* Icon Semangat Kami */
+#semangatKamiIconP { height: 81px; width: 88px; }
+#semangatKamiIconA { height: 72px; width: 54px; }
+#semangatKamiIconC { height: 79px; width: 82px; }
+#semangatKamiIconU { height: 71px; width: 72px; }
+#semangatKamiIconL { height: 57px; width: 69px; }
+
+/* Horizontal Line*/
+#jejakKami hr { border-top: 2px solid #454C3A; width: 70%; }
+
+@media(max-width: 1400px) {
+    #contentCarousel { left: 53%; }
+}
+
+@media(max-width: 1336px) {
+    #contentCarousel { width: 550px; left: 55%; }
+}
+
+@media(max-width: 1300px) {
+    #contentCarousel { width: 525px; left: 54%; }
+}
+
+@media(max-width: 1200px) {
+    #bannerContent div:first-child { left: -320px; }
+    #contentCarousel { left: 52%; width: 485px; }
+    .contentContainer, .contentContainerLast { padding: 0 20px; }
+}
+
+@media(max-width: 1107px) {
+    #bannerContent img { height: 615px; margin-top: 84px; }
+    #contentCarousel { left: 51%; top: 20%; }
+    .carousel-indicators { bottom: 25%; }
+}
+
+@media (max-width: 992px) {
+    /* ALL */
+    .displayPhone { display: flex; }
+    .displayWeb { display: none; }
+    #bannerContent .displayPhone { display: none; }
+    #bannerContent .displayWeb { display: flex; }
+    #bannerContent div:first-child { left: -250px; }
+    .displayPhone.kedaulatan_pangan { width: 400px; }
+    #ternaknesiaHadirPhoneContent .position-relative { width: 386px; }
+    #ternaknesiaHadirPhoneContent #lastPHadir { top: 35px; left: 25px; }
+    #daluHadirPhone { width: 207px; height: 232px; bottom: 0; left: 30%; }
+    #quoteHadirPhone { width: 49px; height: 42px; bottom: 0; left: 25px; }
+    #contentCarousel { height: 27%; top: 67%; left: 0; width: 341px; overflow: hidden; right: 0; margin: auto; max-width: 100%; }
+    .carousel-inner { top: 10px; width: 60%; }
+    .carousel-indicators { bottom: 0; }
+    .carousel-control-next-icon, .carousel-control-prev-icon { height: 50px; }
+    #jejakKami { margin-top: 0; border: none; }
+    .contentContainerLast { margin-bottom: 0; }
+    #endContent { height: auto; }
+
+    /* Font */
+    .tentangKamiFont { font-size: 27px; }
+    #ternaknesiaHadirPhoneContent p { font-size: 24px; color: #454C3A; left: 25px; }
+    .titleSection, .ternaknesiaHadirFontFirst { font-size: 14px; }
+    .kedaulatanPanganFontFirst, .bersamaAndaAstraFont { font-size: 18px; }
+    .kedaulatanPanganFont, .mariBerkontribusiFontIcon, .jejakKamiContentFont, #semangatKamiFont, #semangatKamiPaculFont { font-size: 12px; }
+    #mariBerkontribusiFont, #downloadAplikasiButtonFont, .bersamaAndaAstraDetailFont { font-size: 11px; }
+    #semangatKamiFont { width: 405px; margin: 2rem auto 0 auto !important; max-width: 100%; }
+    .semangatKamiPaculDivFont { font-size: 85px; }
+    .semangatKamiPaculDivFont2 { font-size: 15px; }
+    .semangatKamiPaculDivFont3 { font-size: 7px; }
+    .jejakKamiTitleFont { font-size: 17px; }
+    #downloadAplikasiFont { font-size: 16px; line-height: 2; }
+
+    /* Line Title */
+    .lineTitle { width: 151px; height: 11px; }
+
+    /* Icon Semangat Kami */
+    #semangatKamiIconP { height: 45px; width: 48px; }
+    #semangatKamiIconA { height: 54px; width: 46px; }
+    #semangatKamiIconC { height: 57px; width: 61px; }
+    #semangatKamiIconU { height: 50px; width: 55px; }
+    #semangatKamiIconL { height: 42px; width: 52px; }
+
+    /* Horizontal Line*/
+    #jejakKami hr { width: 30vh; }
+}
+
+@media (max-width: 783px) {
+    #bannerContent img { height: 470px; margin-top: 160px; }
+}
+
+@media (max-width: 768px) {
+    #bannerContent div:first-child { left: -230px; }
+    #semangatKamiDiv { margin: 0 0 0 35px; }
+}
+
+@media (max-width: 768px) and (min-height: 1024px) {
+    #phoneCarouselLogo { width: 17vh; padding-top: 5vh; }
+}
+
+@media (max-width: 703px) {
+    #banner { background-image: none !important; }
+    #bannerContent .displayPhone { display: flex; }
+    #bannerContent .displayWeb { display: none; }
+    #bannerContent { width: 100%; background-color: transparent; height: auto; }
+    #bannerContent .displayPhone div:first-child { width: 100%; top: 30%; left: 0; text-align: center; }
+    #bannerContent img { height: auto; margin-top: 0; }
+}
+
+@media (max-width: 424px) {
+    #phoneCarouselLogo { padding-top: 12%; width: 22vh; }
+    #contentCarousel { width: 310px; }
+}
+
+@media (max-width: 398px) {
+    #contentCarousel { width: 280px; }
+    .bersamaAndaAstraFont { font-size: 15px; }
+    .bersamaAndaAstraDetailFont { font-size: 9px; }
+    .carousel-control-next-icon, .carousel-control-prev-icon { height: 42px; }
+}
+
+@media (max-width: 375px) and (min-height: 812px) {
+    #phoneCarouselLogo { padding-top: 12%; width: 17vh; }
+}
+
+@media (max-width: 360px) {
+    #phoneCarouselLogo { width: 21vh; }
+    #contentCarousel { width: 250px; }
+    .carousel-control-next-icon, .carousel-control-prev-icon { height: 38px; }
+}
+
+@media (max-width: 320px) {
+    #phoneCarouselLogo { width: 18vh; }
+}

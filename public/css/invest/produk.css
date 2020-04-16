@@ -1,0 +1,52 @@
+body {
+	background-color: white; 
+}
+
+.text-19 {
+	font-size: 19px;
+}
+
+.text-22 {
+	font-size: 22px;
+}
+
+.text-26 {
+	font-size: 26px;
+}
+
+.text-32 {
+	font-size: 32px;
+}
+
+.text-42 {
+	font-size: 42px;
+}
+
+.text-orange {
+	color: #DB8415D6;
+}
+
+.produk-box { 
+	width: 100%;
+	border: 1px solid #707070;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-right: 30px;
+	padding-left: 30px;
+	margin-bottom: 20px;
+}
+
+.divider { height: 30px }
+
+.title { font-weight: bold; }
+
+.produk-box .container-title { margin-bottom: 30px }
+.produk-box .title { font-size: 16px; font-weight: bold; }
+.produk-box .like { text-align: right }
+
+.produk-box .description table { font-size: 16px; width: 100%; }
+.produk-box .description .slot { font-weight: bold; font-size: 18px; }
+.produk-box .description .roi { font-weight: bold; color: #1B9B8B; font-size: 18px; }
+.produk-box .container-button { padding-top: 6%; }
+.produk-box .container-button .btn-invest { padding-top: 5px; padding-bottom: 5px; width: 100%; height: auto; }
+.load-more { width: 100%!important; height: auto!important; padding-top: 10px!important; padding-bottom: 10px!important; }

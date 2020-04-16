@@ -1,0 +1,296 @@
+body {
+	background-color: white; 
+}
+.clear { clear: both;  }
+.container-breadcrumb { margin-top: 100px; padding-left: 10%; padding-right: 10%; }
+.container-detail-invest {
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-bottom: 2%;
+	background: #F0F0F0;
+}
+
+.container-detail-data {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.container-detail-date {
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 2%;
+    padding-top: 2%;
+    background: #F0F0F0;   
+    margin-top: 20px;
+}
+
+.container-data {
+	width: 100%;
+    margin-bottom: 2%;
+}
+
+/*
+    BREADCRUMBS
+ */
+
+.cd-breadcrumb {
+    padding: 0.5em 1em;
+    margin: 1em auto;
+    background-color: #FFF;
+    border-radius: .25em;
+}
+.cd-breadcrumb::after {
+    clear: both;
+    content: "";
+    display: table;
+}
+.cd-breadcrumb li {
+    display: inline-block;
+    float: left;
+    margin: 0.5em 0;
+}
+
+.cd-breadcrumb li::after {
+    /* this is the separator between items */
+    display: inline-block;
+    content: '\00bb';
+    margin: 0 .6em;
+    color: #959fa5;
+}
+
+.cd-breadcrumb li:last-of-type::after {
+    /* hide separator after the last item */
+    display: none;
+}
+
+.cd-breadcrumb li > * {
+    /* single step */
+    display: inline-block;
+    font-size: 0.8rem;
+    color: #1B9B8B;
+}
+
+.cd-breadcrumb li.current > *{
+    /* selected step */
+    color: #000;
+    font-style: normal;
+}
+
+.cd-breadcrumb.custom-separator li::after {
+    /* replace the default separator with a custom icon */
+    content: '';
+    height: 16px;
+    width: 16px;
+    background: url(https://codyhouse.co/demo/breadcrumbs-multi-steps-indicator/img/cd-custom-separator.svg) no-repeat center center;
+    vertical-align: middle;
+}
+
+/*
+RESPONSIVE BREADCRUMBS
+ */
+@media only screen and (min-width: 768px) {
+    .cd-breadcrumb {
+        padding: 0 1.2em;
+    }
+
+    .cd-breadcrumb li {
+        margin: 1.2em 0;
+    }
+    .cd-breadcrumb li::after {
+        margin: 0 1em;
+    }
+    .cd-breadcrumb li > * {
+        font-size: 1rem;
+    }
+}
+
+
+/*
+CONTENT
+ */
+
+.container-detail-invest .container-content { 
+    padding-top: 2%; 
+    background: #FFF; 
+    margin-bottom: 50px; 
+}
+.btn-detail-invest { background: #1B9B8B; color: #FFF; }
+
+.color-ternakinvest { color: #1B9B8B; }
+.color-ternakinveest-paragraph { color: #3E3E3E; }
+.color-ternakinveest-other { color: #DF9926; }
+.color-ternakinvest-title { color: #6CB143; }
+.font-bold { font-weight: bold }
+
+.section-top { padding-bottom: 2%; padding-top: 2%; }
+.section-top .title-small { margin: 0; padding: 0; margin-bottom: 10px }
+.section-top .title-medium { margin: 0; padding: 0; margin-bottom: 10px }
+.section-top .title-big { margin: 0; padding: 0; margin-bottom: 10px; font-weight: bold }
+.section-top p { color: #3E3E3E; margin-bottom: 0; padding-bottom: 0}
+.fixed-top { z-index: 990!important; }
+.section-top #pills-tab {
+    border-bottom: 1px solid black;
+    margin-bottom: 50px!important;
+}
+.section-top .nav-pills .nav-link  { 
+    background-color: #FFF;
+    font-weight: bold;
+    font-size: 22px;
+    padding-left: 0;
+    padding-bottom: 20px;
+    margin-right: 20px;
+    color: #979797;
+}
+
+.section-top .nav-pills .nav-link.active {
+    color: #000;
+    border-bottom: 5px solid #1B9B8B;
+}
+
+.container-detail-invest .title { margin-bottom: 50px }
+
+.container-detail-invest .container-content {
+    -moz-box-shadow: 0 4px 4px rgba(0, 0, 0, 0.4);
+    -webkit-box-shadow: 0 4px 4px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.4);
+}
+
+.container-detail-invest .container-content .description .container-body {
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+}
+
+.container-detail-invest .container-content .description a {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.container-detail-invest .container-content .description .container-body .name {
+    margin-bottom: 20px;
+}
+
+.container-detail-invest .container-content .description .container-body .status {
+    margin-bottom: 20px;
+}
+
+.container-detail-invest .container-content .description .container-body td {
+    padding-top: 8px;
+    padding-right: 8px;
+    padding-bottom: 8px;
+}
+
+.container-detail-invest .container-content .description .container-body td.field {
+    color: grey;
+}
+
+.container-detail-invest .container-content .description .container-body td.data {
+    color: #000;
+    font-weight: bold;
+}
+
+.container-detail-data .container-price {
+    margin-bottom: 20px;
+}
+
+.modal-header { border-bottom: 0!important; }
+
+.submit { padding-bottom: 10% }
+
+.submit button {
+    width: 45%;
+    margin-right: 5%;
+    font-weight: bold;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    font-size: 1.5em;
+}
+
+.title p {
+    font-size: 1.5em;
+}
+
+.line {
+    display: block;
+    width: 100%;
+    height: 1px;
+    background-image: linear-gradient(to right, transparent 20%, #223049 10%);
+    background-size: 10px 100%;
+}
+
+table.detail-payment {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+table.detail-payment td.left {
+    text-align: left;
+    margin-right: 1em;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+table.detail-payment td.left a {
+    text-decoration: none;
+    color: #DF9926;
+}
+table.detail-payment td.left span {
+    color: #1B9B8B;
+}
+.form .fa {
+    font-size: 2.5em;
+    text-align: center;
+}
+table.detail-payment td.right {
+    text-align: right;
+    margin-right: 1em;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+table.detail-payment td.right span {
+    color: #6CB143;
+}
+
+table.detail-payment td.right strong {
+    color: #1B9B8B;
+}
+table.detail-payment td.right a {
+    text-decoration: none;
+    color: #DF9926;
+}
+
+.submit button:last-child {
+    margin-right: 0;
+}
+
+@media (max-width: 900px) {
+
+	.container-detail-invest {
+		padding-left: 0;
+		padding-right: 0;
+		margin-top: 0;
+	}
+
+	.container-detail-invest .container-content {
+		padding-left: 5%;
+		padding-right: 5%;
+	}
+
+	.container-detail-invest .profile .col-md-2, .container-detail-invest .profile .col-md-10 {
+		padding-left: 0;
+		padding-right: 0;
+		width: auto;
+	}
+
+	.profile .data-profile .title-profile {
+		font-size: 18px;
+	}
+
+	.container-detail-invest .form .col-2, .container-detail-invest .form .col-10 {
+		padding-left: 0;
+		padding-right: 0;
+	}
+}
+

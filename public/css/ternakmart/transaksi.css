@@ -1,0 +1,113 @@
+body,html{
+    font-family: 'Noto Serif', serif !important;
+    font-family: 'Noto Sans', sans-serif !important;
+    background: #F9F9F9 0% 0% no-repeat padding-box;
+}
+.over-hidden{
+    overflow: hidden;
+}
+.navbar{
+    background-color: #1B75BC !important;
+}
+.navbar-floating, .navbar-floating * {
+    z-index: 99;
+}
+.nav a.nav-link {
+    font-family: "Noto Sans";
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: #fff;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    margin-left: 37px;
+}
+.navbar-padding{
+    padding-top: 80px;
+}
+.padding-bottom{
+    padding-bottom: 20px;
+}
+.trans-bg{
+    background-color: transparent !important;
+}
+.menu-transaksi{
+    background-color:#1B75BC;
+    padding: .75rem 1rem;
+    background-color: #e9ecef;
+    border-radius: .25rem;
+    margin-bottom: 1rem;
+}
+.transaksi-outline{
+    box-shadow: 0px 3px 6px #00000029;  
+    margin-bottom: 1rem;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.transaksi{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-left:10px solid #1B75BC;
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+    padding: 1rem;
+}
+.yellow-text{
+    color:#DF9926;
+}
+.yellow-button{
+    background-color:#DF9926;
+    border-color:#DF9926;
+    color: white;
+}
+.yellow-button:hover{
+    background-color:#DF9926;
+    border-color:#DF9926;
+    color: white;
+}
+.yellow-button:active{
+    background-color:#DF9926;
+    border-color:#DF9926;
+    color: white;
+}
+.blue-text{
+    color: #1B75BC ;
+}
+.red-text{
+    color:#AE0721;
+}
+.box-timeline {
+    position: relative;
+    width: 50px;
+    text-align: center;
+    display: inline-block;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 50%;
+}
+.active-timeline{
+    border: 1px solid #1B75BC;
+    background-color: #1B75BC;
+}
+.box-timeline img {
+    width: 30px;
+    height: 30px;
+}
+.active-timeline img{
+    filter:
+        invert(100%);
+}
+  #container-timeline .box-timeline:not(:last-child) {
+    margin-right: 15px;
+  }
+  #container-timeline .box-timeline:not(:last-child):after {
+    position: absolute;
+    content: '';
+    right: -50%;
+    top: 0%;
+    width: 50%;
+    height: 50%;
+    border-bottom: 1px solid black;
+  }

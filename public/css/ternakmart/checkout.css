@@ -1,0 +1,94 @@
+body,html{
+    font-family: 'Noto Serif', serif !important;
+    font-family: 'Noto Sans', sans-serif !important;
+}
+.over-hidden{
+    overflow: hidden;
+}
+.navbar{
+    background-color: #1B75BC !important;
+}
+.navbar-floating, .navbar-floating * {
+    z-index: 99;
+}
+.nav a.nav-link {
+    font-family: "Noto Sans";
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: #fff;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    margin-left: 37px;
+}
+.navbar-padding{
+    padding-top: 80px;
+}
+.padding-bottom{
+    padding-bottom: 20px;
+}
+.hilang{
+    display: none;
+}
+.box{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 5px;
+    padding:20px;
+    margin-bottom: 10px;
+}
+.trans-bg{
+    background-color: transparent !important;
+}
+.yellow-text{
+    color:#DF9926;
+}
+.yellow-button{
+    background-color:#DF9926;
+    border-color:#DF9926;
+    color: white;
+}
+.yellow-button:hover{
+    background-color:#DF9926;
+    border-color:#DF9926;
+    color: white;
+}
+.yellow-button:active{
+    background-color:#DF9926;
+    border-color:#DF9926;
+    color: white;
+}
+.blue-text{
+    color: #1B75BC ;
+}
+.red-text{
+    color:#AE0721;
+}
+.voucher{
+    position: relative;
+}
+.voucher .btn{
+    top: 0;
+    right: 0;
+    position: absolute !important;
+    background-color:#DF9926;
+    color: white;
+}
+.modal-body{
+    padding: 50px;
+}
+.modal-body .form-check{
+    padding: 10px;
+}
+
+@media (max-width: 575px){
+    .padding-bottom .btn-wrapper{
+        margin:5px;
+    }
+    .change-btn-wrapper{
+        padding: 0;
+        font-size: 12px;
+    }
+}

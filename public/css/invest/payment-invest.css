@@ -1,0 +1,205 @@
+body {
+	background-color: white; 
+}
+.clear { clear: both;  }
+.container-detail-invest {
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-bottom: 5%;
+	padding-top: 5%;
+	background: #F0F0F0;
+}
+
+.container-data {
+	width: 100%;
+    margin-bottom: 2%;
+}
+
+
+/*
+CONTENT
+ */
+
+.container-detail-invest .col-md-12 {
+	padding: 2% 8%;
+	background: #FFF;
+	margin-bottom: 20px;
+}
+.btn-detail-invest {
+    background: #1B9B8B;
+    color: #FFF;
+}
+.section-top h5 { color: #3E3E3E; margin: 0; padding: 0; margin-bottom: 10px }
+.section-top h3 { color: #1B9B8B; margin: 0; padding: 0; margin-bottom: 10px; font-weight: bold }
+.section-top p { color: #3E3E3E; margin-bottom: 0; padding-bottom: 0}
+.section-top a { text-decoration: none; color: #DF9926!important; font-weight: bold }
+.fixed-top { z-index: 990!important; }
+
+.container-detail-invest .col-md-12 .description {
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.container-detail-invest .col-md-12 .description .bank-name {
+    margin-top: 2%;
+    color: #6F6F70;
+}
+
+.container-detail-invest .col-md-12 .description .bank-account {
+    color: #3E3E3E;
+    font-weight: bold;
+    font-size: 1.5em
+}
+
+.container-detail-invest .col-md-12 .description a {
+    color : #DF9926;
+}
+
+.container-payment {
+    width: 50%;
+    margin: 0 auto;
+    text-align: left;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.container-payment .alert-description {
+    font-size: 1em;
+    color: #AE0721;
+    font-weight: bold;
+    text-align: center;
+}
+
+.container-payment label {
+    color: #6F6F70;
+}
+
+.container-payment select {
+    padding: 5%;
+    width: 100%;
+    color: #000;
+    font-weight: bold;
+    font-size: 1.5em;
+    border-color: #1B9B8B;
+    -moz-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-image: url(data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.or…4-1.414Z%22%20fill%3D%22%23000000%22%3E%3C%2Fpath%3E%3C%2Fg%3E%3C%2Fsvg%3E);
+    background-size: .6em;
+    background-position: calc(100% - 1.3em) center;
+    background-repeat: no-repeat;
+}
+
+.container-payment .input-file {
+    color: transparent;
+    /* width: 100%;
+    height: 80px;
+    text-align: center;
+    vertical-align: middle; */
+}
+.container-payment .input-file::-webkit-file-upload-button {
+    visibility: hidden;
+}
+
+.container-payment .input-file:before {
+    /* content: 'Upload Bukti Pembayaran';
+    display: inline-block;
+    background: #AE0721;
+    border: 1px solid #AE0721;
+    border-radius: 3px;
+    padding: 5px 8px;
+    outline: none;
+    white-space: nowrap;
+    -webkit-user-select: none;
+    cursor: pointer;
+    text-shadow: 1px 1px #fff;
+    font-weight: 700;
+    font-size: 10pt;
+    width: 100%;
+    height: 80px; */
+}
+
+.btn-red {
+    background: #AE0721;
+    width: 100%;
+    font-weight: bold;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    font-size: 1em;
+    color: #FFF;
+}
+
+.btn-red:hover {
+    color: #FFF;
+}
+
+.container-payment .input-file:hover:before {
+    border-color: black;
+}
+
+.container-payment .input-file:active:before {
+    background: #AE0721;
+    color: #FFF;
+}
+
+.submit { padding-bottom: 10% }
+
+.submit button {
+    width: 45%;
+    margin-right: 5%;
+    font-weight: bold;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    font-size: 1.5em;
+}
+
+.submit button:last-child {
+    margin-right: 0;
+}
+
+@media (max-width: 900px) {
+	.container-detail-invest {
+		padding-left: 0;
+		padding-right: 0;
+		margin-top: 0;
+	}
+
+	.container-detail-invest .col-md-12 {
+		padding-left: 5%;
+		padding-right: 5%;
+	}
+
+	.container-detail-invest .profile .col-md-2, .container-detail-invest .profile .col-md-10 {
+		padding-left: 0;
+		padding-right: 0;
+		width: auto;
+	}
+
+	.profile .data-profile .title-profile {
+		font-size: 18px;
+	}
+
+	.container-detail-invest .form .col-2, .container-detail-invest .form .col-10 {
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	form input {
+		font-size: 0.8em;
+		letter-spacing: 0.05em;
+	}
+
+	form input[type=text] {
+		margin-bottom: 0px;
+		width: 65%;
+		border-right-width: 0px;
+	}
+
+	form input[type=submit] {
+		width: 35%;
+	}
+}

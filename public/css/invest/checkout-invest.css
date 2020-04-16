@@ -1,0 +1,504 @@
+body {
+	background-color: white; 
+}
+.clear { clear: both;  }
+.container-detail-invest {
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-bottom: 5%;
+	padding-top: 5%;
+	/* background: #F0F0F0; */
+}
+
+.container-data {
+	width: 100%;
+}
+
+
+/*
+CONTENT
+ */
+
+.container-detail-invest .col-md-12 {
+	padding: 2% 8%;
+	background: #FFF;
+	margin-bottom: 20px;
+}
+
+.content-data {
+	background-color: #FFF;
+	display: block;
+	margin-bottom: 0
+}
+
+.content-description {
+	background-color: #FFF;
+	display: block;
+}
+
+.container-left {
+	float: left;
+	width: 50%;
+	display: block;
+}
+
+.container-right {
+	float: right;
+	width: 50%;
+	display: block;
+}
+
+.container-left img {
+	width: 100%;
+}
+
+.profile .image-profile {
+	text-align: center;
+}
+
+.profile .image-profile img {
+	width: 180px;
+	height: auto;
+	max-height: 180px;
+	object-fit: cover;
+}
+
+.profile .data-profile .title-profile {
+	font-weight: bold;
+	font-size: 20px
+}
+
+.profile .data-profile .description-profile {
+	margin-top: 5%;
+}
+
+.profile .data-profile p {
+	color: #000;
+}
+
+.profile .data-profile span {
+	color: #1B9B8B;
+	font-weight: bold;
+}
+
+.container-right .status {
+	margin-left: 20px;
+	margin-top: 15px;
+	background: #F6F6F6;
+	padding: 45px;
+}
+
+.btn-detail-invest {
+	background: #1B9B8B;
+	color: #FFF;
+}
+.title { 
+	position: relative;
+}
+.title p {
+	font-size: 1.5em;
+}
+
+.line {
+	position: absolute;
+	top: 120%;
+	left: 0;
+	width: 100%;
+	height: 1px;
+	background-image: linear-gradient(to right, transparent 20%, #223049 10%);
+	background-size: 10px 100%;
+}
+
+table.detail-payment {
+	margin-top: 20px;
+	width: 100%;
+}
+
+table.detail-payment td.left {
+	font-size: 1em;
+	text-align: left;
+  	margin-right: 1em;
+  	padding-top: 10px;
+	padding-bottom: 10px;
+	font-weight: bold;
+}
+table.detail-payment td.left a {
+	text-decoration: none;
+	color: #DF9926;
+}
+table.detail-payment td.left span {
+	color: #1B9B8B;
+}
+.form .fa {
+	font-size: 2.5em;
+	text-align: center;
+}
+table.detail-payment td.right {
+	font-size: 1em;
+	text-align: right;
+  	margin-right: 1em;
+  	padding-top: 10px;
+	padding-bottom: 10px;
+  	font-weight: bold;
+}
+table.detail-payment td.right span {
+	color: #6CB143;
+}
+
+table.detail-payment td.right strong {
+	color: #1B9B8B;
+}
+table.detail-payment td.right a {
+	text-decoration: none;
+	color: #DF9926;
+}
+
+.submit a, .submit button {
+	width: 45%;
+	margin-right: 5%;
+	font-weight: bold;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	font-size: 1.5em;
+}
+
+.submit button:last-child, .submit a:last-child {
+	margin-right: 0;
+}
+
+form {
+	 overflow: hidden;
+}
+form input {
+	width: 100%;
+	float: left;
+	padding: 15px 20px;
+	text-align: left;
+	font-family: inherit;
+	font-size: 1.1rem;
+	letter-spacing: 0.05rem;
+	outline: 0;
+}
+form input[type=text] {
+	margin-bottom: 15px;
+	border: 1px solid #bec1c5;
+	-webkit-transition: all 0.4s;
+	-moz-transition: all 0.4s;
+	-o-transition: all 0.4s;
+	transition: all 0.4s;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+@media (min-width: 768px) {
+	form input[type=text] {
+		margin-bottom: 0px;
+		width: 75%;
+		border-right-width: 0px;
+	}
+}
+form input[type=text]:focus {
+	border-color: #3e4146;
+}
+form input[type=submit] {
+	background-color: #DB8415;
+	color: #fff;
+	border: 1px solid #8e6ac1;
+	-webkit-transition: all 0.4s;
+	-moz-transition: all 0.4s;
+	-o-transition: all 0.4s;
+	transition: all 0.4s;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+@media (min-width: 768px) {
+	form input[type=submit] {
+		width: 25%;
+	}
+}
+form input[type=submit]:hover {
+	cursor: pointer;
+	background-color: #FFF;
+	border-color: #1B9B8B;
+	color: #1B9B8B;
+}
+
+
+/*
+
+MODAL
+
+ */
+.modal-window {
+	position: fixed;
+	background: rgba(0, 0, 0, 0.8);
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 999;
+	visibility: hidden;
+	opacity: 0;
+	pointer-events: none;
+}
+.modal-window:target {
+	visibility: visible;
+	opacity: 1;
+	pointer-events: auto;
+}
+.modal-window > div {
+	width: 600px;
+	height: auto;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	padding: 5em;
+	background: #fff;
+	opacity: 1 !important;
+}
+.modal-window header {
+ 	font-weight: bold;
+}
+.modal-window h1 {
+	font-size: 150%;
+	margin-bottom: 50px;
+	font-weight: bold;
+	text-align: center;
+}
+.modal-window form {
+	margin-top: 20px;
+}
+.modal-window button {
+	width: 100%;
+	margin-top: 10px;
+}
+.modal-close {
+	color: #aaa;
+	line-height: 50px;
+	font-size: 50px;
+	position: absolute;
+	right: 0;
+	text-align: center;
+	top: 0;
+	width: 70px;
+	text-decoration: none;
+	margin-top: 10px;
+}
+.modal-close:hover {
+	color: black;
+}
+.fixed-top {
+	z-index: 990!important;
+}
+
+.modal-window table {
+    width: 100%;
+}
+.modal-window table td.left {
+    font-size: 20px;
+    text-align: left;
+    margin-right: 1em;
+    padding-top: 2%;
+}
+.modal-window table td.right {
+    font-size: 20px;
+    text-align: right;
+    margin-right: 1em;
+    padding-top: 2%;
+}
+.modal-window table td.last {
+    padding-top: 5%;
+}
+
+@media (max-width: 900px) {
+	.container-detail-invest {
+		padding-left: 0;
+		padding-right: 0;
+		margin-top: 0;
+	}
+
+	.container-detail-invest .col-md-12 {
+		padding-left: 5%;
+		padding-right: 5%;
+	}
+
+	.container-detail-invest .profile .col-md-2, .container-detail-invest .profile .col-md-10 {
+		padding-left: 0;
+		padding-right: 0;
+		width: auto;
+	}
+
+	.profile .data-profile .title-profile {
+		font-size: 18px;
+	}
+
+	.profile .data-profile td.field {
+		font-size: 14px;
+	}
+
+	.profile .data-profile td.data {
+		font-size: 14px
+	}
+
+	.modal-window > div {
+		width: 100%;
+	    height: 80%;
+	    position: absolute;
+	    top: 60%;
+	    bottom: 0;
+	    padding: 2em;
+	    left: 50%;
+	    padding-bottom: 0;
+	}
+
+	.submit a, .submit button{
+		width: 100%;
+		font-weight: bold;
+		margin-bottom: 10px;
+		padding-top: 5%;
+		padding-bottom: 5%;
+		font-size: 1em;
+	}
+
+	.container-detail-invest .form .col-2, .container-detail-invest .form .col-10 {
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	form input {
+		font-size: 0.8em;
+		letter-spacing: 0.05em;
+	}
+
+	form input[type=text] {
+		margin-bottom: 0px;
+		width: 65%;
+		border-right-width: 0px;
+	}
+
+	form input[type=submit] {
+		width: 35%;
+	}
+}
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+  //CSS
+  
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+  //CSS
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  //CSS
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+  //CSS
+  
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  //CSS
+  
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  //CSS
+  
+}
+
+.radio {
+     margin: 16px 0;
+     display: block;
+     cursor: pointer;
+}
+ .radio input {
+     display: none;
+}
+ .radio input + span {
+     line-height: 22px;
+     height: 22px;
+     padding-left: 22px;
+     display: block;
+     position: relative;
+     margin-top: 50px;
+}
+ .radio input + span:not(:empty) {
+     padding-left: 20%;
+}
+ .radio input + span:before, .radio input + span:after {
+     content: '';
+     width: 22px;
+     height: 22px;
+     display: block;
+     border-radius: 50%;
+     left: 0;
+     top: 0;
+     position: absolute;
+}
+ .radio input + span:before {
+     background: #1B9B8B;
+     transition: background 0.2s ease, transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 2);
+}
+ .radio input + span:after {
+     background: #fff;
+     transform: scale(0.78);
+     transition: transform 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.4);
+}
+ .radio input:checked + span:before {
+     transform: scale(1.04);
+     background: #1B9B8B;
+}
+ .radio input:checked + span:after {
+     transform: scale(0.4);
+     transition: transform 0.3s ease;
+}
+ .radio:hover input + span:before {
+     transform: scale(0.92);
+}
+ .radio:hover input + span:after {
+     transform: scale(0.74);
+}
+ .radio:hover input:checked + span:after {
+     transform: scale(0.4);
+}

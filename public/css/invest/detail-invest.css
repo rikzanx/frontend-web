@@ -1,0 +1,591 @@
+body {
+	background-color: white; 
+}
+.clear { clear: both;  }
+.container-detail-invest {
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-bottom: 5%;
+	margin-top: 5%
+}
+
+.container-data {
+	width: 100%;
+}
+
+/*
+	BREADCRUMBS
+ */
+
+.cd-breadcrumb {
+ 	padding: 0.5em 1em;
+ 	margin: 1em auto;
+ 	background-color: #FFF;
+ 	border-radius: .25em;
+}
+.cd-breadcrumb::after {
+ 	clear: both;
+ 	content: "";
+ 	display: table;
+}
+.cd-breadcrumb li {
+	display: inline-block;
+	float: left;
+	margin: 0.5em 0;
+}
+
+.cd-breadcrumb li::after {
+	/* this is the separator between items */
+	display: inline-block;
+	content: '\00bb';
+	margin: 0 .6em;
+	color: #959fa5;
+}
+
+.cd-breadcrumb li:last-of-type::after {
+ 	/* hide separator after the last item */
+ 	display: none;
+}
+
+.cd-breadcrumb li > * {
+	/* single step */
+	display: inline-block;
+	font-size: 0.8rem;
+	color: #1B9B8B;
+}
+
+.cd-breadcrumb li.current > *{
+	/* selected step */
+	color: #000;
+	font-style: normal;
+}
+
+.cd-breadcrumb.custom-separator li::after {
+	/* replace the default separator with a custom icon */
+	content: '';
+	height: 16px;
+	width: 16px;
+	background: url(https://codyhouse.co/demo/breadcrumbs-multi-steps-indicator/img/cd-custom-separator.svg) no-repeat center center;
+	vertical-align: middle;
+}
+
+/*
+RESPONSIVE BREADCRUMBS
+ */
+@media only screen and (min-width: 768px) {
+	.cd-breadcrumb {
+		padding: 0 1.2em;
+	}
+
+ 	.cd-breadcrumb li {
+   		margin: 1.2em 0;
+ 	}
+ 	.cd-breadcrumb li::after {
+    	margin: 0 1em;
+ 	}
+ 	.cd-breadcrumb li > * {
+   		font-size: 1rem;
+ 	}
+}
+
+/*
+CONTENT
+ */
+
+.content-data {
+	background-color: #FFF;
+	display: block;
+	margin-bottom: 0
+}
+
+.content-description {
+	background-color: #FFF;
+	display: block;
+}
+
+.container-left {
+	float: left;
+	width: 50%;
+	display: block;
+}
+
+.container-right {
+	float: right;
+	width: 50%;
+	display: block;
+}
+
+.container-left img {
+	width: 100%;
+}
+
+#carouselExampleIndicators img {
+	max-height: 480px;
+}
+
+.container-right .profile {
+	position: relative;
+	margin-left: 20px;
+	background: #FFF;
+	display: block;
+}
+
+.container-right .profile .image-profile {
+	float: left;
+	width: 25%;
+}
+
+.container-right .profile .image-profile img {
+	width: 150px;
+	height: auto;
+}
+
+.container-right .profile .data-profile {
+	float: right;
+	width: 75%;
+}
+
+.profile .data-profile .title-profile {
+	font-weight: bold;
+	font-size: 20px
+}
+
+.profile .data-profile td {
+	padding-top: 8px;
+	padding-right: 8px;
+	padding-bottom: 8px;
+}
+
+.profile .data-profile td.field {
+	color: grey;
+}
+
+.profile .data-profile td.data {
+	color: #000;
+	font-weight: bold;
+}
+
+.container-right .status {
+	margin-left: 20px;
+	margin-top: 15px;
+	background: #F6F6F6;
+	padding: 45px;
+}
+
+.btn-detail-invest {
+	background: #1B9B8B;
+	color: #FFF;
+}
+
+.container-right .status .data {
+	position: relative;
+	margin-top: 40px;
+}
+
+.container-right .status .data p {
+	margin-left: 5px;
+}
+
+.container-right .status .data strong {
+	font-size: 20px;
+}
+
+.container-right .status .data .container-total {
+	float: left;
+	width: 50%;
+}
+
+.container-right .status .data .container-roi {
+	float: right;
+	width: 50%;
+	align-content: right
+}
+
+.progress-container {
+    position: relative;
+}
+
+.progress-container progress {
+    background-color: #1B9B8B;
+    height: 10px;
+    width: 100%;
+}
+
+.progress-container progress::-webkit-progress-bar {
+    background-color: #FFF;
+}
+
+.progress-container progress::-webkit-progress-value {
+    background-color: #1B9B8B;
+}
+
+.container-data { 
+	margin-top: 0;
+}
+
+.container-data .container-confirmation { 
+	margin-left: 20px;
+}
+
+.container-data .container-confirmation a { 
+	width: 49.7%
+}
+
+.container-data .container-share {
+	margin-top: 20px;
+}
+
+.container-data .container-confirmation {
+	margin-top: 20px
+}
+
+.container-share .left {
+	float: left;
+	width: 50%;
+}
+
+.container-share .right {
+	float: right;
+}
+
+.container-share .circle {
+	background: white;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	text-align: center;
+	vertical-align: middle;
+	display: table-cell;
+}
+
+.container-share ul { 
+	padding: 0;
+}
+
+.container-share li {
+	display: inline;
+	list-style-type: none;
+	padding-right: 10px;
+	float: left;
+}
+
+.container-share img {
+	width: 28px;
+	height: auto;
+}
+
+.content-description {
+	margin-top: 20px;
+}
+
+.content-description .title {
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.content-description .description {
+	margin-top: 30px;
+}
+.content-description .description p {
+	font-size: 16px;
+	line-height: 30px;
+	text-align: justify;
+}
+
+.content-description .description .container-confirmation {
+	margin-top: 50px;
+}
+
+.content-description .description .container-confirmation a {
+	width: 20%;
+	font-weight: bold;
+}
+
+/*
+
+MODAL
+
+ */
+.modal-window div:not(:last-of-type) {
+	
+}
+.modal-window {
+	position: fixed;
+	background: rgba(0, 0, 0, 0.8);
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 999;
+	visibility: hidden;
+	opacity: 0;
+	pointer-events: none;
+}
+.modal-window:target {
+	visibility: visible;
+	opacity: 1;
+	pointer-events: auto;
+}
+.modal-window > div {
+	width: 600px;
+	height: 500px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	padding: 5em;
+	background: #fff;
+	opacity: 1 !important;
+}
+.modal-window header {
+ 	font-weight: bold;
+}
+.modal-window h1 {
+	font-size: 150%;
+	margin-bottom: 50px;
+	font-weight: bold;
+	text-align: center;
+}
+.modal-window table {
+	width: 100%;
+}
+.modal-window table td.left {
+	font-size: 20px;
+	text-align: left;
+  	margin-right: 1em;
+  	padding-top: 2%;
+}
+.modal-window table td.right {
+	font-size: 20px;
+	text-align: right;
+  	margin-right: 1em;
+  	padding-top: 2%;
+}
+.modal-window table td.last {
+	padding-top: 5%;
+}
+.modal-window form {
+	margin-top: 20px;
+}
+.modal-window button {
+	width: 100%;
+	margin-top: 10px;
+}
+.modal-close {
+	color: #aaa;
+	line-height: 50px;
+	font-size: 50px;
+	position: absolute;
+	right: 0;
+	text-align: center;
+	top: 0;
+	width: 70px;
+	text-decoration: none;
+	margin-top: 10px;
+}
+.modal-close:hover {
+	color: black;
+}
+.fixed-top {
+	z-index: 990!important;
+}
+
+@media (max-width: 900px) {
+	.container-detail-invest {
+		padding-left: 0;
+		padding-right: 0;
+		margin-top: 0;
+	}
+
+	.cd-breadcrumb {
+		display: none;
+	}
+
+	.container-left {
+		width: 100%;
+		display: block;
+	}
+
+	.container-right {
+		width: 100%;
+		display: block;
+	}
+
+	.container-share {
+		padding-left: 5%;
+		margin-top: 5%;
+		padding-right: 5%;
+	}
+
+	.container-right .profile {
+		margin-left: 0;
+		margin-top: 30px;
+		padding-left: 5%;
+		padding-right: 5%;
+	}
+
+	.container-right .profile .image-profile img { 
+		width: auto;
+	}
+
+	.container-right .profile .data-profile {
+		padding-left: 15%;
+	}
+
+	.profile .data-profile .title-profile {
+		font-size: 18px;
+	}
+
+	.profile .data-profile td.field {
+		font-size: 14px;
+	}
+
+	.profile .data-profile td.data {
+		font-size: 14px
+	}
+
+	.container-data .container-confirmation {
+		padding-left: 5%;
+		padding-right: 5%;
+	}
+
+	.container-data .container-confirmation a {
+		width: 100%;
+		margin-bottom: 5%;
+	}
+
+	.container-right .status {
+		margin-left: 0;
+		padding: 5%;
+	}
+
+	.container-right .status .data p {
+		font-size: 14px;
+	}
+
+	.container-right .status .data img {
+		width: 15px;
+	}
+
+	.container-right .status .data strong {
+		font-size: 12px
+	}
+
+	.container-right .status .data .container-roi {
+		padding-left: 5%;
+	}
+
+	.container-share ul { 
+		margin-left: 5px;
+	}
+
+	.container-data .container-confirmation {
+		margin-left: 0;
+		margin-top: 20px;
+	}
+
+	#carouselExampleIndicators {
+		position: relative;
+	}
+
+	.container-share .circle {
+		top: 25%;
+		right: 5%;
+		position: absolute;
+		padding-left: 0.5%;
+		padding-top: 2%;
+		align-items: center;
+	}
+
+	.content-description {
+		padding-left: 5%;
+		padding-right: 5%;
+	}
+
+	.content-description .description .container-confirmation a {
+		width: 100%;
+		margin-bottom: 5%;
+	}
+
+	#carouselExampleIndicators img {
+		max-height: 260px;
+	}
+
+	.modal-window > div {
+		width: 100%;
+	    height: 410px;
+	    position: absolute;
+	    bottom: 0;
+	    padding: 2em;
+	    top: 80%;
+	    left: 50%;
+	    padding-bottom: 0;
+	}
+}
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+  //CSS
+  
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+  //CSS
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  //CSS
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+  //CSS
+  
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  //CSS
+  
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  //CSS
+  
+}

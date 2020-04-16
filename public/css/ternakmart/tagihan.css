@@ -1,0 +1,113 @@
+body,html{
+    font-family: 'Noto Serif', serif !important;
+    font-family: 'Noto Sans', sans-serif !important;
+    background: #F9F9F9 0% 0% no-repeat padding-box;
+}
+.over-hidden{
+    overflow: hidden;
+}
+.navbar{
+    background-color: #1B75BC !important;
+}
+.navbar-floating, .navbar-floating * {
+    z-index: 99;
+}
+.nav a.nav-link {
+    font-family: "Noto Sans";
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: #fff;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    margin-left: 37px;
+}
+.navbar-padding{
+    padding-top: 80px;
+}
+.trans-bg{
+    background-color: transparent !important;
+}
+.padding-bottom{
+    padding-bottom: 20px;
+}
+.box{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 5px;
+    padding:20px;
+    margin-bottom: 10px;
+}
+.white-text{
+    color:white !important;
+}
+.yellow-text{
+    color:#DF9926;
+}
+.yellow-button{
+    background-color:#DF9926;
+    border-color:#DF9926;
+    color: white;
+}
+.yellow-button:hover{
+    background-color:#DF9926;
+    border-color:#DF9926;
+    color: white;
+}
+.yellow-button:active{
+    background-color:#DF9926;
+    border-color:#DF9926;
+    color: white;
+}
+.red-text{
+    color:#AE0721;
+}
+.red-button{
+    background-color:#AE0721;
+    border-color:#AE0721;
+    color: white;
+}
+.red-button:hover{
+    background-color:#AE0721;
+    border-color:#AE0721;
+    color: white;
+}
+.red-button:active{
+    background-color:#AE0721;
+    border-color:#AE0721;
+    color: white;
+}
+.blue-text{
+    color: #1B75BC ;
+}
+.red-text{
+    color:#AE0721;
+}
+.box-pembayaran{
+    padding:5px;
+    margin-bottom:5px;
+    box-shadow: 0px 3px 6px #00000029;
+}
+.foto-upload{
+    width: 100%;
+    height: 200px;
+    display: none;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 10px;
+}
+.foto-upload:hover{
+    background-position:center top; 
+    
+}
+#input-image{
+    display: none;
+}
+.bukti-text{
+    display: none;
+}
+.bca-text{
+    display: none;
+}
